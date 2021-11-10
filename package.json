@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-cypress-ct",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "fibers": "5.0.0",
+    "next": "12.0.2",
+    "node-sass": "^6.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "1.32"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env":"7.16.0",
+    "@cypress/code-coverage": "^3.9.9",
+    "@cypress/react": "^5.10.1",
+    "@cypress/webpack-dev-server": "^1.7.0",
+    "@types/react":"17.0.34",
+    "@testing-library/cypress": "^7.0.6",
+    "babel-plugin-istanbul": "^6.0.0",
+    "babel-loader":"8.2.3",
+    "cypress": "^8.0.0",
+    "eslint": "<8.0.0",
+    "eslint-config-next": "12.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "typescript": "^4.4.4",
+    "webpack": "^5.20.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
